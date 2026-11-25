@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Unlit streetlight on residential avenue illustration">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="65%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <radialGradient id="farGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="310" fill="url(#dusk)"/>
+  <rect y="308" width="640" height="32" fill="#475569"/>
+  <rect y="340" width="640" height="140" fill="#1E293B"/>
+  <circle cx="515" cy="186" r="56" fill="url(#farGlow)"/>
+  <rect x="512" y="186" width="6" height="128" fill="#64748B"/>
+  <rect x="498" y="182" width="22" height="7" rx="3" fill="#FEF08A"/>
+  <rect x="220" y="96" width="14" height="226" fill="#94A3B8"/>
+  <path d="M232 104 L318 88 L322 98 L234 116 Z" fill="#94A3B8"/>
+  <rect x="306" y="84" width="44" height="18" rx="6" fill="#334155" stroke="#64748B" stroke-width="2"/>
+  <line x1="316" y1="102" x2="340" y2="102" stroke="#1E293B" stroke-width="3"/>
+  <rect x="52" y="210" width="110" height="98" fill="#273449"/>
+  <rect x="380" y="220" width="95" height="88" fill="#273449"/>
+  <line x1="40" y1="408" x2="600" y2="408" stroke="#94A3B8" stroke-width="5" stroke-dasharray="42 30" opacity="0.4"/>
+</svg>

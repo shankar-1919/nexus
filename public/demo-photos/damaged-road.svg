@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Cracked and damaged road pavement illustration">
+  <rect width="640" height="165" fill="#DCE6F0"/>
+  <rect y="160" width="640" height="32" fill="#CBD5E1"/>
+  <rect y="192" width="640" height="288" fill="#4B5563"/>
+  <polygon points="0,480 230,192 410,192 640,480" fill="#3B4554"/>
+  <path d="M285 210 L262 256 L298 292 L245 352 L276 420" fill="none" stroke="#111827" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M298 292 L360 308 L402 360 L372 426" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M262 256 L205 278 L178 332" fill="none" stroke="#1E293B" stroke-width="3.5"/>
+  <path d="M360 308 L428 286 L468 318" fill="none" stroke="#1E293B" stroke-width="3.5"/>
+  <polygon points="274,312 332,320 344,358 284,366 254,344" fill="#1F2937"/>
+  <line x1="320" y1="205" x2="320" y2="460" stroke="#F8FAFC" stroke-width="5" stroke-dasharray="28 26" opacity="0.45"/>
+</svg>

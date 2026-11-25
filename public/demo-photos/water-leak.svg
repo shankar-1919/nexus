@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Water pipeline leakage on street illustration">
+  <rect width="640" height="180" fill="#DDEAF5"/>
+  <rect y="175" width="640" height="36" fill="#CBD5E1"/>
+  <rect y="211" width="640" height="269" fill="#475569"/>
+  <rect x="75" y="175" width="70" height="30" rx="3" fill="#94A3B8"/>
+  <rect x="96" y="188" width="28" height="28" rx="2" fill="#334155"/>
+  <path d="M110 214 C150 225 186 248 258 258 C344 270 432 276 540 310 C595 328 625 362 640 388 L640 442 C530 434 404 426 284 402 C188 382 118 332 82 266 C74 250 86 218 110 214 Z" fill="#0891B2" opacity="0.72"/>
+  <path d="M126 226 C188 248 274 276 382 296 C476 314 550 344 610 384" fill="none" stroke="#E0F2FE" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M160 278 C240 304 336 334 456 364" fill="none" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+  <ellipse cx="112" cy="222" rx="22" ry="9" fill="#E0F2FE" opacity="0.9"/>
+  <line x1="0" y1="211" x2="640" y2="211" stroke="#E2E8F0" stroke-width="4"/>
+</svg>

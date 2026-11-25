@@ -1,0 +1,1674 @@
+# PROJECT: NEXUS AI — Intelligent Community Problem Detection & Response Platform
+
+## ROLE
+
+Act as a senior product designer, UX architect, frontend engineer, backend engineer, and AI application developer.
+
+Build a complete, functional, hackathon-ready application called **NEXUS AI**.
+
+NEXUS AI is an intelligent community infrastructure management platform that allows citizens to report public problems, AI to analyze and prioritize issues, administrators to coordinate response teams, and field officers to resolve incidents.
+
+The application should feel like a real-world software product created by a professional product team — NOT like a generic AI-generated dashboard.
+
+The priority is:
+
+1. Simple and elegant UI/UX.
+2. Easy navigation for all types of users.
+3. Fully functional buttons and features.
+4. Complete end-to-end complaint workflow.
+5. Reliable AI demonstration.
+6. Responsive design.
+7. Professional visual quality.
+8. Realistic hackathon demo experience.
+
+Do not create an unnecessarily complicated interface.
+
+---
+
+# 1. PRODUCT VISION
+
+Create a platform that connects:
+
+**Citizens → AI Analysis → Administrator → Field Officer → Resolution → Citizen Feedback**
+
+The platform should help communities identify problems such as:
+
+- Potholes
+- Garbage overflow
+- Water leakage
+- Damaged roads
+- Broken streetlights
+- Drainage problems
+- Other public infrastructure issues
+
+NEXUS AI should intelligently analyze submitted complaints, identify their urgency, recommend responsible departments, and streamline resolution.
+
+This is a hackathon demonstration prototype, not an officially deployed government system.
+
+---
+
+# 2. DESIGN PHILOSOPHY
+
+Design the product using the following principles:
+
+### Simple
+Users should understand what to do without needing instructions.
+
+### Elegant
+Use clean layouts, proper spacing, attractive typography, subtle borders, and carefully selected colors.
+
+### Human-centered
+Citizens should not feel like they are using a complex technical AI system.
+
+### Functional
+Every button, dropdown, navigation item, form, filter, and action must have a meaningful function.
+
+### Professional
+The interface should resemble a real SaaS product or modern civic-tech platform.
+
+### AI in the background
+AI should provide intelligence without overwhelming the user with technical jargon, AI animations, agent terminology, or unnecessary visual effects.
+
+### Consistent
+All pages must use the same design system, components, spacing, colors, and interaction patterns.
+
+---
+
+# 3. UI DESIGN SYSTEM
+
+## Overall Style
+
+Use a modern, minimal, premium civic technology design.
+
+Design inspiration:
+
+- Linear
+- Stripe Dashboard
+- Notion
+- Apple
+- Modern SaaS admin platforms
+- Premium productivity applications
+
+Do not copy these products directly.
+
+Create an original NEXUS AI design.
+
+## Color Palette
+
+Use a light, clean interface as the primary design.
+
+Primary background:
+#F7F8FA
+
+Card background:
+#FFFFFF
+
+Primary text:
+#172033
+
+Secondary text:
+#64748B
+
+Border:
+#E5E7EB
+
+Primary brand color:
+#4F46E5
+
+Brand light:
+#EEF2FF
+
+Cyan accent:
+#0891B2
+
+Success:
+#16A34A
+
+Warning:
+#D97706
+
+Critical:
+#DC2626
+
+Dark sidebar:
+#111827
+
+Use colors consistently.
+
+Do not use excessive gradients.
+
+Avoid:
+- Full-screen purple gradients
+- Neon glowing borders
+- Excessive glassmorphism
+- Holographic cards
+- Random floating widgets
+- Too many animations
+- Oversized headings
+- Excessive rounded cards
+- Unnecessary decoration
+- AI-generated-looking dashboard layouts
+- Fake terminal interfaces
+- Too many charts
+- Excessive shadows
+
+Use subtle shadows only where necessary.
+
+Use clean borders, white surfaces, balanced spacing, and strong typography.
+
+---
+
+# 4. TYPOGRAPHY
+
+Use Inter, Geist, or another modern sans-serif font.
+
+Typography should feel premium and readable.
+
+Use:
+
+- Page headings: 24–30px
+- Section headings: 16–20px
+- Body text: 14–16px
+- Labels: 12–13px
+- Buttons: 14–15px
+
+Avoid excessive font sizes.
+
+Use bold text only for important information.
+
+---
+
+# 5. COMPONENT DESIGN
+
+Create reusable components.
+
+Examples:
+
+- Sidebar
+- Header
+- Page title
+- Breadcrumbs
+- Stat cards
+- Complaint cards
+- Status badges
+- Severity badges
+- Buttons
+- Search bar
+- Dropdown
+- Modal
+- Confirmation dialog
+- Form field
+- File upload
+- Empty state
+- Loading state
+- Toast notifications
+- Timeline
+- Table
+- Map marker
+- AI analysis card
+- Agent workflow component
+
+Use consistent component styles.
+
+Buttons should have clear visual hierarchy.
+
+### Primary button
+Solid indigo background with white text.
+
+### Secondary button
+White background with subtle border.
+
+### Danger button
+Red text or subtle red background.
+
+### Text button
+Minimal style for less important actions.
+
+Buttons must have:
+
+- Hover states
+- Active states
+- Disabled states
+- Loading states where appropriate
+
+---
+
+# 6. APPLICATION LAYOUT
+
+Create a responsive application shell.
+
+## Desktop
+
+Use a fixed left sidebar and a main content area.
+
+Sidebar width:
+Approximately 240px.
+
+Main content:
+Flexible width.
+
+Header:
+Compact top navigation bar.
+
+The sidebar should contain:
+
+### Branding
+NEXUS AI
+
+Small subtitle:
+Community Intelligence
+
+### Navigation
+
+- Overview
+- Report a Problem
+- My Reports
+- Community Map
+- AI Insights
+- Management (admin only)
+- Field Tasks (field officer only)
+
+### Bottom sidebar
+
+- Help & Support
+- User Profile
+- Settings
+- Logout
+
+Use icons from Lucide React.
+
+Each navigation item must work.
+
+Show active navigation clearly.
+
+## Mobile
+
+Create a responsive mobile experience.
+
+- Collapsible sidebar or bottom navigation.
+- Full-width cards.
+- Easy-to-use forms.
+- Touch-friendly buttons.
+- Mobile-friendly map.
+- No horizontal overflow.
+- Responsive tables should become cards or scroll appropriately.
+
+---
+
+# 7. LANDING PAGE
+
+Create an elegant landing page for NEXUS AI.
+
+## Header
+
+Logo:
+NEXUS AI
+
+Navigation:
+
+- Home
+- How It Works
+- Features
+- About
+
+Buttons:
+
+- Sign In
+- Get Started
+
+## Hero Section
+
+Headline:
+
+**Building Better Communities, Together.**
+
+Supporting text:
+
+"Report community problems, track progress, and help your city respond faster with intelligent infrastructure management."
+
+Primary button:
+
+**Report a Problem**
+
+Secondary button:
+
+**Explore the Platform**
+
+Visual:
+
+Create a realistic city infrastructure illustration or a clean map-based visual showing community issues.
+
+Do not use generic AI robot illustrations.
+
+Do not use excessive futuristic effects.
+
+## Feature Section
+
+Show four feature cards:
+
+### Smart Reporting
+Report public infrastructure issues with photographs and location information.
+
+### AI-Powered Analysis
+Identify the issue, estimate severity, and recommend the next action.
+
+### Transparent Tracking
+Follow every complaint from submission to resolution.
+
+### Coordinated Response
+Connect administrators and field officers through a shared workflow.
+
+## How It Works
+
+Show a simple 4-step workflow:
+
+1. Report an Issue
+2. AI Analyzes the Report
+3. Team Reviews and Responds
+4. Problem Gets Resolved
+
+Use simple icons and clean visual design.
+
+## Footer
+
+Include:
+
+- NEXUS AI
+- About
+- Features
+- Contact
+- Privacy
+- Demo disclaimer
+
+---
+
+# 8. DEMO LOGIN AND USER ROLES
+
+Create a simple demo authentication experience.
+
+This is a hackathon demo. Do not implement complicated authentication.
+
+Provide three roles:
+
+### Citizen
+
+Can:
+
+- Report problems
+- Upload photographs
+- View submitted reports
+- Track complaints
+- View community problems
+- Receive status updates
+- Submit feedback after resolution
+
+### Administrator
+
+Can:
+
+- View all complaints
+- Review AI analysis
+- Approve or reject complaints
+- Assign field officers
+- Change severity
+- Change complaint status
+- View analytics
+- Manage tasks
+
+### Field Officer
+
+Can:
+
+- View assigned tasks
+- Accept tasks
+- View location
+- View complaint details
+- Update status
+- Upload completion photographs
+- Mark issues resolved
+
+Create a demo login page with three role cards.
+
+Each role card should have a button:
+
+**Continue as Citizen**
+
+**Continue as Administrator**
+
+**Continue as Field Officer**
+
+Allow users to switch roles during demonstration through a profile menu or demo role selector.
+
+Clearly label the login experience as Demo Mode.
+
+---
+
+# 9. CITIZEN DASHBOARD
+
+Create a friendly and easy-to-use dashboard.
+
+Do not make it look like an administrator dashboard.
+
+## Welcome Section
+
+Example:
+
+"Good evening!"
+
+"Help make your community better."
+
+Primary button:
+
+**+ Report a Problem**
+
+Secondary action:
+
+**View My Reports**
+
+## Overview Cards
+
+Display:
+
+- Reports Submitted
+- Under Review
+- In Progress
+- Resolved
+
+Keep cards simple.
+
+## Recent Reports
+
+Show the user's most recent complaints.
+
+Each report should display:
+
+- Complaint ID
+- Category
+- Short description
+- Submitted date
+- Location
+- Status
+- Severity
+
+Clicking a report should open its detail page.
+
+## Community Updates
+
+Display recently reported problems in the surrounding community.
+
+Show:
+
+- Issue type
+- Location
+- Status
+- Date
+
+Do not reveal private user information.
+
+## Helpful Section
+
+Show:
+
+"Your reports help improve local infrastructure."
+
+Provide a small informational card explaining how reports are reviewed and resolved.
+
+---
+
+# 10. REPORT A PROBLEM
+
+This is one of the most important features.
+
+Create a simple, polished, user-friendly report form.
+
+Use a step-by-step form rather than displaying every field at once.
+
+## STEP 1 — Identify the Problem
+
+Question:
+
+**What problem did you notice?**
+
+Category options:
+
+- Pothole
+- Garbage Overflow
+- Water Leakage
+- Damaged Road
+- Broken Streetlight
+- Drainage Problem
+- Other
+
+Display category selection as clean selectable cards with icons.
+
+## STEP 2 — Add Photograph
+
+Allow users to:
+
+- Upload an image
+- Preview the image
+- Remove the image
+- Replace the image
+
+Accept common image formats.
+
+Add optional camera capture on mobile devices.
+
+If no image is uploaded, allow the user to continue with text-only reporting.
+
+## STEP 3 — Describe the Problem
+
+Input:
+
+"What happened?"
+
+Provide a simple text area.
+
+Example placeholder:
+
+"Describe the problem and how it affects the area..."
+
+Do not make the description mandatory if a photograph and category are already sufficient, but encourage the user to provide details.
+
+## STEP 4 — Location
+
+Allow users to:
+
+- Enter an address manually
+- Use current location when permission is available
+- Select a location on an interactive map
+- Edit location details
+
+Display:
+
+- Address
+- Latitude
+- Longitude
+
+If location permission is unavailable, allow manual entry.
+
+Do not claim GPS is active when it is not.
+
+## STEP 5 — Review and Submit
+
+Show a preview of the complete report.
+
+Include:
+
+- Category
+- Photograph
+- Description
+- Location
+
+Button:
+
+**Submit Report**
+
+After submission:
+
+Display a success screen.
+
+Example:
+
+"Your report has been submitted successfully."
+
+Generate a unique complaint ID.
+
+Example:
+
+NEX-2026-1042
+
+Buttons:
+
+- Track My Report
+- Back to Dashboard
+
+The report must be saved persistently.
+
+---
+
+# 11. AI IMAGE ANALYSIS
+
+Create a clean AI analysis experience.
+
+Do not make AI analysis look like a fake sci-fi interface.
+
+After a report is submitted, analyze the uploaded photograph where actual AI image analysis is available.
+
+Display:
+
+## AI Assessment
+
+### Identified Issue
+Example:
+
+Road pothole
+
+### Severity
+
+- Low
+- Medium
+- High
+- Critical
+
+Use subtle color-coded severity labels.
+
+### AI Summary
+
+Example:
+
+"Visible road damage may affect vehicle movement and requires inspection."
+
+### Recommended Action
+
+Example:
+
+"Inspect the damaged section and schedule road repair."
+
+### Responsible Department
+
+Example:
+
+Road Maintenance Department
+
+### Confidence
+
+Display confidence only if an actual AI model returns a valid confidence score.
+
+If using deterministic demo logic, DO NOT fabricate model confidence.
+
+Instead display:
+
+**Demo AI Assessment**
+
+"Generated using predefined demonstration rules."
+
+Do not present demo predictions as actual AI model output.
+
+If Gemini API credentials are available:
+
+- Use Gemini for image understanding.
+- Analyze the uploaded image.
+- Generate issue description.
+- Recommend severity.
+- Suggest responsible department.
+- Suggest action.
+
+If Gemini is unavailable:
+
+- Use deterministic demo logic based on selected category and description.
+- Clearly label output as simulated AI demonstration.
+
+Provide a small indicator:
+
+"AI-assisted assessment — requires human review."
+
+---
+
+# 12. COMPLAINT DETAIL AND TRACKING
+
+Create a dedicated complaint detail page.
+
+Display:
+
+- Complaint ID
+- Category
+- Description
+- Image
+- Location
+- Severity
+- Status
+- Submitted date
+- Responsible department
+- Assigned officer, if assigned
+
+## Complaint Timeline
+
+Show the following stages:
+
+1. Submitted
+2. AI Analysis Completed
+3. Awaiting Review
+4. Approved
+5. Assigned
+6. In Progress
+7. Resolved
+
+The timeline must dynamically reflect actual complaint status.
+
+Each timeline entry should contain:
+
+- Status
+- Date and time
+- Description
+- Responsible actor where available
+
+## Actions
+
+Depending on user role, show appropriate actions.
+
+Citizen:
+
+- View Status
+- Add Additional Information
+- Submit Feedback after resolution
+
+Administrator:
+
+- Approve
+- Reject
+- Assign
+- Change Priority
+
+Field Officer:
+
+- Accept Task
+- Start Work
+- Upload Evidence
+- Mark Resolved
+
+All actions must update the complaint state.
+
+---
+
+# 13. COMMUNITY MAP
+
+Create an interactive community problem map using Leaflet.
+
+The map should feel simple and useful.
+
+Do not make the map excessively decorated.
+
+Display complaint markers using severity colors:
+
+- Low — Green
+- Medium — Yellow
+- High — Orange
+- Critical — Red
+
+Use category icons where appropriate.
+
+## Map Features
+
+- Click a marker to view complaint details.
+- Display complaint category.
+- Display severity.
+- Display status.
+- Display location.
+- Open complaint details.
+- Filter by category.
+- Filter by severity.
+- Filter by status.
+- Search by location or complaint ID.
+- Show/hide resolved reports.
+
+Provide a list view beside or below the map.
+
+Allow switching between:
+
+**Map View**
+
+**List View**
+
+Use realistic demonstration coordinates in a selected demo city.
+
+Clearly label seeded locations as demonstration data.
+
+Do not claim that demo locations are real citizen reports.
+
+---
+
+# 14. AI INSIGHTS
+
+Create a user-friendly AI insights page.
+
+Do not call it a complicated AI Mission Control or futuristic AI laboratory.
+
+Page title:
+
+**Community Insights**
+
+Subtitle:
+
+"Understand local infrastructure issues and response trends."
+
+Display:
+
+## Key Insights
+
+Examples:
+
+- Road-related issues are increasing this week.
+- Garbage reports are concentrated in selected areas.
+- Streetlight complaints require follow-up.
+- Several high-priority reports need review.
+
+These insights should be generated from the existing complaint dataset.
+
+Do not invent analytics unrelated to the data.
+
+## AI Recommendations
+
+Display simple actionable recommendations:
+
+- Prioritize high-severity reports.
+- Group nearby maintenance tasks.
+- Review unresolved complaints.
+- Assign appropriate departments.
+
+Clearly label generated demo insights when real AI is not connected.
+
+## Agent Workflow
+
+Show a simple visual workflow:
+
+Detection → Severity Assessment → Location Processing → Department Recommendation → Human Review → Response
+
+Each stage should be represented using a simple card or connected timeline.
+
+Do not use excessive animated glowing nodes.
+
+The workflow should feel professional and easy to understand.
+
+---
+
+# 15. ADMINISTRATOR DASHBOARD
+
+Create a professional administration dashboard.
+
+Page title:
+
+**Operations Overview**
+
+Subtitle:
+
+"Monitor community issues and coordinate resolution."
+
+## KPI Cards
+
+Display:
+
+- Total Reports
+- Pending Review
+- Critical Issues
+- Active Assignments
+- Resolved Reports
+
+The values must come from the complaint database or shared demo dataset.
+
+## Reports Table
+
+Columns:
+
+- Complaint ID
+- Issue
+- Location
+- Severity
+- Date
+- Status
+- Assigned Officer
+- Actions
+
+Features:
+
+- Search
+- Category filter
+- Severity filter
+- Status filter
+- Sort
+- Pagination if required
+
+Click a row to open complaint details.
+
+## Admin Actions
+
+The administrator must be able to:
+
+- Approve a report
+- Reject a report
+- Change priority
+- Assign a department
+- Assign a field officer
+- Change status
+- View complaint details
+- Add administrative notes
+
+Provide confirmation dialogs for important actions.
+
+Changes must persist.
+
+## Analytics
+
+Use Recharts.
+
+Display:
+
+- Reports by category
+- Reports by status
+- Severity distribution
+- Resolution trend
+
+Charts should be simple, readable, and meaningful.
+
+Avoid too many charts.
+
+---
+
+# 16. HUMAN APPROVAL
+
+Create a human review workflow.
+
+AI recommendations must not automatically make final administrative decisions.
+
+When AI analysis is complete:
+
+Status:
+
+**Awaiting Review**
+
+The administrator should see:
+
+- Citizen report
+- Image
+- Description
+- Location
+- AI analysis
+- Severity recommendation
+- Department recommendation
+- Recommended action
+
+Actions:
+
+**Approve Report**
+
+**Reject Report**
+
+**Edit Priority**
+
+**Assign Department**
+
+**Add Note**
+
+When approved:
+
+- Update status.
+- Record timestamp.
+- Record administrator action.
+- Move the complaint into assignment workflow.
+
+The approval process should be transparent.
+
+---
+
+# 17. FIELD OFFICER DASHBOARD
+
+Create a practical task-management interface for field officers.
+
+Page title:
+
+**My Field Tasks**
+
+Display:
+
+- Assigned Tasks
+- New Tasks
+- In Progress
+- Completed
+
+Each task card should contain:
+
+- Complaint ID
+- Issue type
+- Location
+- Severity
+- Description
+- Priority
+- Assigned department
+- Due date if provided
+- Instructions
+
+## Actions
+
+### Accept Task
+
+Update task status to Accepted.
+
+### Start Work
+
+Update status to In Progress.
+
+### View Location
+
+Open location on map.
+
+### Upload Completion Photo
+
+Allow image upload and preview.
+
+### Mark Resolved
+
+Require:
+
+- Resolution note
+- Completion photo where possible
+
+After resolution:
+
+- Save resolution details.
+- Update complaint status.
+- Add timeline entry.
+- Show confirmation.
+
+The officer should be able to easily use this interface on a mobile phone.
+
+---
+
+# 18. DEMO DATA
+
+Create at least 8 realistic seeded complaints.
+
+Use the following distribution:
+
+- 2 Potholes
+- 2 Garbage Overflow
+- 1 Water Leakage
+- 1 Damaged Road
+- 2 Broken Streetlights
+
+Use different:
+
+- Severity levels
+- Locations
+- Dates
+- Complaint statuses
+- Departments
+- Assignment states
+
+Create realistic descriptions.
+
+Example:
+
+### NEX-2026-1001
+Category: Pothole  
+Severity: High  
+Status: In Progress  
+Description: Deep pothole near a busy junction affecting vehicles.
+
+### NEX-2026-1002
+Category: Garbage Overflow  
+Severity: Medium  
+Status: Awaiting Review  
+Description: Garbage accumulating near a residential collection point.
+
+### NEX-2026-1003
+Category: Water Leakage  
+Severity: Critical  
+Status: Approved  
+Description: Water leakage causing continuous road wetness.
+
+### NEX-2026-1004
+Category: Broken Streetlight  
+Severity: Medium  
+Status: Assigned  
+Description: Streetlight not functioning on a residential street.
+
+Create realistic locations within a demonstration area.
+
+Seeded demo data must be used consistently across:
+
+- Citizen dashboard
+- Administrator dashboard
+- Field officer dashboard
+- Community map
+- Analytics
+- Complaint tracking
+
+Do not use different fake numbers on different pages.
+
+---
+
+# 19. FUNCTIONAL REQUIREMENTS
+
+All interactive elements must work.
+
+Implement:
+
+- Landing page navigation
+- Demo role login
+- Role switching
+- Sidebar navigation
+- Complaint submission
+- Image upload
+- Image preview
+- Image removal
+- AI demonstration
+- Gemini integration where available
+- Category selection
+- Location entry
+- GPS access with permission
+- Map location selection
+- Complaint ID generation
+- Complaint detail view
+- Complaint timeline
+- Complaint search
+- Filters
+- Sorting
+- Approve/reject
+- Department assignment
+- Officer assignment
+- Priority updates
+- Task acceptance
+- Start work
+- Resolution
+- Completion photo upload
+- Feedback
+- Analytics updates
+- Toast notifications
+- Confirmation dialogs
+
+No decorative button should be nonfunctional.
+
+If a feature cannot be implemented, do not show a misleading button for it.
+
+---
+
+# 20. DATABASE AND PERSISTENCE
+
+Use the existing database implementation if it works.
+
+Inspect existing backend modules before making changes.
+
+If no working database exists, use SQLite.
+
+Store:
+
+- Complaints
+- User role
+- Category
+- Description
+- Photograph references
+- Location
+- Severity
+- AI analysis
+- Department
+- Status
+- Assigned officer
+- Administrative actions
+- Resolution details
+- Timeline
+- Feedback
+
+For a simple demo, browser storage can be used as a fallback.
+
+Persistent data must survive page refresh.
+
+Use the same data source for every dashboard.
+
+Do not create separate hardcoded statistics for different pages.
+
+---
+
+# 21. TECHNOLOGY STACK
+
+Frontend:
+
+- React
+- Vite
+- TypeScript preferred
+- Tailwind CSS
+- Lucide React
+- Recharts
+- React Leaflet
+- React Router
+
+Backend:
+
+- Python
+- FastAPI
+- REST API
+
+AI:
+
+- Gemini API for image understanding and recommendation generation, if credentials are configured.
+- Optional YOLO for object detection.
+- Demo fallback when AI is unavailable.
+
+Database:
+
+- Existing database if functional.
+- Otherwise SQLite.
+
+Do not require paid services for the basic demo.
+
+---
+
+# 22. BACKEND API
+
+Inspect the existing backend before creating or modifying files.
+
+The existing structure may contain:
+
+backend/
+    app/
+        agents/
+        api/
+        database/
+        schemas/
+        services/
+        config.py
+        main.py
+
+Reuse existing modules wherever possible.
+
+Implement or verify endpoints for:
+
+- Health check
+- Create complaint
+- List complaints
+- Complaint detail
+- Update complaint
+- Upload image
+- Analyze image
+- Approve complaint
+- Reject complaint
+- Assign department
+- Assign field officer
+- Update task status
+- Resolve complaint
+- Upload resolution evidence
+- Submit feedback
+
+Example REST API structure:
+
+GET /api/health
+
+GET /api/complaints
+
+POST /api/complaints
+
+GET /api/complaints/{complaint_id}
+
+PATCH /api/complaints/{complaint_id}
+
+POST /api/complaints/{complaint_id}/analyze
+
+POST /api/complaints/{complaint_id}/approve
+
+POST /api/complaints/{complaint_id}/reject
+
+POST /api/complaints/{complaint_id}/assign
+
+POST /api/complaints/{complaint_id}/resolve
+
+POST /api/complaints/{complaint_id}/feedback
+
+POST /api/upload
+
+Use proper validation.
+
+Handle errors gracefully.
+
+Do not unnecessarily rewrite working modules.
+
+---
+
+# 23. AI AGENT SYSTEM
+
+Create a demonstration of an AI-assisted workflow.
+
+Use five logical agents:
+
+### 1. Detection Agent
+
+Identifies the type of infrastructure problem.
+
+### 2. Severity Agent
+
+Evaluates urgency using the image, description, and category.
+
+### 3. Location Agent
+
+Processes the location and identifies relevant geographic information.
+
+### 4. Department Agent
+
+Recommends the responsible department.
+
+### 5. Response Agent
+
+Suggests next actions and response priority.
+
+Visualize the workflow as:
+
+**Report Received → Detection → Severity Assessment → Location → Department → Recommended Action → Human Approval**
+
+Each agent should display:
+
+- Name
+- Status
+- Short output
+- Completion state
+
+Use simple workflow cards or a horizontal timeline.
+
+Do not pretend these agents are independent autonomous systems if they are only simulated functions.
+
+When operating in demo mode, clearly label them:
+
+**Simulated AI Workflow**
+
+If real AI integration is available, show:
+
+**AI-Assisted Analysis**
+
+---
+
+# 24. NOTIFICATIONS
+
+Create simple in-app notifications.
+
+Examples:
+
+- Report submitted successfully.
+- Report approved.
+- Field officer assigned.
+- Work started.
+- Complaint resolved.
+- AI analysis completed.
+
+Use toast notifications and a simple notification panel.
+
+Do not claim SMS, WhatsApp, email, or push notifications are sent unless actual integrations are implemented.
+
+---
+
+# 25. USER SETTINGS
+
+Create a simple settings page.
+
+Include:
+
+- Profile information
+- Demo role
+- Notification preferences
+- Theme preference
+- Language selection
+
+Support English as the primary language.
+
+If possible, provide Telugu as an optional interface language for the demo.
+
+Language switching should change visible interface text rather than simply displaying a decorative selector.
+
+---
+
+# 26. ACCESSIBILITY AND USABILITY
+
+Ensure:
+
+- Good contrast
+- Readable font sizes
+- Clear labels
+- Keyboard accessibility
+- Visible focus states
+- Appropriate button names
+- Form validation
+- Helpful error messages
+- Loading indicators
+- Empty states
+- Confirmation dialogs
+- Mobile touch targets
+- Accessible icons
+
+Avoid requiring users to understand technical AI terms.
+
+---
+
+# 27. ANIMATIONS
+
+Use subtle animations only.
+
+Examples:
+
+- Page transitions
+- Button hover
+- Sidebar transitions
+- Toast entrance
+- Loading skeletons
+- Modal transitions
+- Progress updates
+
+Animations must be quick and smooth.
+
+Avoid:
+
+- Constant pulsing
+- Excessive glowing
+- Flying cards
+- Rotating holograms
+- Constant background animation
+- Distracting visual effects
+
+Respect reduced-motion preferences.
+
+---
+
+# 28. ERROR HANDLING
+
+The application must not break if:
+
+- Image upload fails.
+- GPS permission is denied.
+- Gemini API is unavailable.
+- Backend is unavailable.
+- Data is missing.
+- User enters invalid information.
+- A complaint does not exist.
+
+Provide helpful error messages.
+
+Use graceful fallbacks.
+
+---
+
+# 29. DEMONSTRATION FLOW
+
+The application must support the following complete presentation:
+
+### Step 1
+Open the NEXUS AI landing page.
+
+### Step 2
+Login as Citizen using Demo Login.
+
+### Step 3
+Open Report a Problem.
+
+### Step 4
+Select Pothole.
+
+### Step 5
+Upload a photograph.
+
+### Step 6
+Add description and location.
+
+### Step 7
+Submit the report.
+
+### Step 8
+Show AI analysis.
+
+### Step 9
+Show detection, severity, location, department, and response recommendations.
+
+### Step 10
+Switch to Administrator.
+
+### Step 11
+Open Pending Reviews.
+
+### Step 12
+Review AI assessment.
+
+### Step 13
+Approve the complaint.
+
+### Step 14
+Assign a field officer.
+
+### Step 15
+Switch to Field Officer.
+
+### Step 16
+Accept task.
+
+### Step 17
+Mark task In Progress.
+
+### Step 18
+Upload completion evidence.
+
+### Step 19
+Mark complaint Resolved.
+
+### Step 20
+Switch back to Citizen.
+
+### Step 21
+Open My Reports.
+
+### Step 22
+View updated complaint timeline.
+
+### Step 23
+Switch to Administrator.
+
+### Step 24
+Show updated analytics.
+
+The entire workflow must work without requiring multiple users or external services.
+
+Role switching should simulate the complete demonstration.
+
+---
+
+# 30. README
+
+Create a complete README.md.
+
+Include:
+
+- Project title
+- Project overview
+- Problem statement
+- Solution
+- Key features
+- User roles
+- UI/UX design
+- AI workflow
+- Architecture
+- Technology stack
+- Project structure
+- Installation instructions
+- Frontend run commands
+- Backend run commands
+- Environment configuration
+- Gemini API setup
+- Demo fallback explanation
+- Demo login instructions
+- Demo presentation workflow
+- Limitations
+- Future improvements
+
+---
+
+# 31. DEVELOPMENT INSTRUCTIONS
+
+Before implementing:
+
+1. Inspect the entire existing project.
+2. Identify the existing frontend.
+3. Identify the existing backend.
+4. Inspect existing database.
+5. Inspect API endpoints.
+6. Identify existing working features.
+7. Reuse completed modules.
+8. Avoid unnecessary rewrites.
+9. Create a clear implementation plan.
+10. Begin implementation.
+
+Then:
+
+- Build the UI.
+- Integrate frontend and backend.
+- Implement the complaint workflow.
+- Implement persistent storage.
+- Implement AI or demo analysis.
+- Implement map.
+- Implement analytics.
+- Implement role-based interfaces.
+- Test all major interactions.
+- Fix runtime errors.
+- Fix UI problems.
+- Verify responsive behavior.
+- Verify the end-to-end demonstration.
+
+---
+
+# 32. FINAL QUALITY REQUIREMENTS
+
+The final application must feel like a polished real-world product.
+
+Prioritize:
+
+- Clean UI
+- Elegant layouts
+- Easy navigation
+- Realistic content
+- Consistent components
+- Functional forms
+- Working buttons
+- Smooth interactions
+- Useful AI analysis
+- Reliable persistence
+- Realistic complaint workflow
+- Responsive design
+- Clear feedback
+- Good loading and error states
+
+The user experience should be intuitive enough that someone can understand the app without being given a long explanation.
+
+Do not create an overly futuristic AI interface.
+
+Do not make every component glow.
+
+Do not use random gradients.
+
+Do not fill the dashboard with unnecessary charts.
+
+Do not create fake functionality.
+
+Do not leave unfinished buttons.
+
+Do not display fabricated AI confidence scores.
+
+Do not claim integrations are working unless they have actually been implemented.
+
+The AI should make the product intelligent.
+
+The design should make the product simple.
+
+The workflow should make the product useful.
+
+---
+
+# FINAL PRODUCT GOAL
+
+Build **NEXUS AI**, a beautiful, simple, elegant, intelligent, and fully interactive community infrastructure management application suitable for a national-level hackathon presentation.
+
+The final product should look like something a real startup would launch.
+
+**Design principle: Less visual noise. More clarity. Better functionality.**
+
+**Build a product people can actually use — not just a dashboard that looks impressive in screenshots.**
